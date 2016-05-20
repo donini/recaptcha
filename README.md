@@ -5,11 +5,11 @@ This code was made to help you understand how Google reCAPTCHA works.
 
 For start, you need register your site at this [link](https://www.google.com/recaptcha/admin#createsite).
 
-1. Then get the Site Key, and change the line 14 in index.html.
+1. Then get the **Site Key**, and change the line 14 in index.html, in the DIV element, the property data-sitekey.
 
-> <div class="g-recaptcha" data-sitekey="~~{{ YOUR SITE KEY }}~~"></div><br>
+> \<div class="g-recaptcha" data-sitekey="~~{{ YOUR SITE KEY }}~~"></div>
 
-2. And then put your Secret Key changind the value of $secret_key variavle in actoion.php file, this variable is located at line 13.
+2. And then put your **Secret Key** changind the value of $secret_key variavle in actoion.php file, this variable is located at line 13.
 
 > $secret_key = "~~{{ YOUR SECRET KEY }}~~";
 
