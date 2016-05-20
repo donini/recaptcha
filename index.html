@@ -1,0 +1,18 @@
+<html>
+  <head>
+    <title>Sample demo of Google reCAPTHA</title>
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+  </head>
+  <body>
+    <h1>Sample demo of Google reCAPTHA</h1>
+    Official site: <a href="https://developers.google.com/recaptcha">https://developers.google.com/recaptcha</a><br>
+    Official docs: <a href="https://developers.google.com/recaptcha/docs/start">https://developers.google.com/recaptcha/docs/start</a><br>
+    Register your site: <a href="https://www.google.com/recaptcha/admin#createsite">https://www.google.com/recaptcha/admin#createsite</a><br>
+    <h3>Dummy form</h3>
+    <form id="dummy_form" action="action.php" method="post">
+      <input type="email" placeholder="What's your e-mail address?" size="40"><br><br>
+      <div class="g-recaptcha" data-sitekey="{{ YOUR SITE KEY }}"></div><br>
+      <input type="submit" name="submit" value="Submit something"><br><br>
+    </form>
+  </body>
+</html>
